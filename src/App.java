@@ -1,5 +1,4 @@
 public class App {
-
     public static void main(String[] args) {
 
         System.out.println("=== 1. Singleton: consecutivo unico ===");
@@ -54,7 +53,7 @@ public class App {
                 .construir();
         p3.mostrarResumen();
 
-        System.out.println();
+        /*System.out.println();
         System.out.println("=== 3. Factory Method: medios de pago ===");
 
         ProcesadorPago tarjeta = new ProcesadorTarjeta();
@@ -73,5 +72,6 @@ public class App {
         // nequi.procesar(p2);
         // nequi.procesar(p3);
         // FIN PUNTO 4
+         */
     }
 }

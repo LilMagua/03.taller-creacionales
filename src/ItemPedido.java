@@ -5,7 +5,7 @@ public class ItemPedido {
     private final double precioUnitario;
     private final int cantidad;
 
-    public ItemPedido(String nombre, double precioUnitario, int cantidad) {
+    public  ItemPedido(String nombre, double precioUnitario, int cantidad) {
         this.nombre = nombre;
         this.precioUnitario = precioUnitario;
         this.cantidad = cantidad;
